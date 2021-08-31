@@ -1,0 +1,25 @@
+{
+    "name": "my/plugin",
+    "description": "My formfield plugin for Voyager II",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoph Schweppe",
+            "email": "info@cschweppe.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "My\\Plugin\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "My\\Plugin\\MyPluginServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "formfield-plugin",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "vite build",
+    "watch": "vite build --mode development --watch"
+  },
+  "dependencies": {
+    "vue": "^3.2.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.2.6",
+    "sass": "^1.38.2",
+    "vite": "^2.5.2"
+  }
+}
