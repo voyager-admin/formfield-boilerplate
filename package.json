@@ -1,6 +1,7 @@
 {
   "name": "formfield-plugin",
   "version": "0.0.0",
+  "keywords": ["voyager2-plugin"],
   "scripts": {
     "build": "vite build",
     "watch": "vite build --mode development --watch"
