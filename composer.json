@@ -1,7 +1,7 @@
 {
     "name": "my/plugin",
     "description": "My formfield plugin for Voyager II",
-    "keywords": [],
+    "keywords": ["voyager2-plugin"],
     "license": "MIT",
     "authors": [
         {
