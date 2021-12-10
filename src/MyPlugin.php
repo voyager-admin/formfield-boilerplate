@@ -12,6 +12,11 @@ class MyPlugin implements FormfieldPlugin
     public $repository = 'my/plugin';
     public $website = 'https://github.com/my/plugin';
 
+    public function __construct()
+    {
+        $this->readme = realpath(dirname(__DIR__, 1).'/README.md');
+    }
+
     public function provideJS(): string
     {
         return file_get_contents(realpath(dirname(__DIR__, 1).'/dist/myplugin.umd.js'));
